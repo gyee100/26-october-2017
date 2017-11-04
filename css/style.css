@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300');
+
+body {
+   font: 1.1rem / 1.5 'Poppins', sans-serif;
+   margin: 0;
+   padding: 0;
+}
+
+section {
+   padding-top: 24px;
+   padding-left: 24px;
+   height: 100vh;
+}
+
+section:nth-of-type(1) {
+   background: url('https://c2.staticflickr.com/4/3131/2830722126_614fd705bb_b.jpg') no-repeat 0 0 / cover;
+}
+
+section:nth-of-type(2) {
+   background: url('https://c2.staticflickr.com/8/7066/6891416813_b9244742b1_b.jpg') no-repeat 0 0 / cover;
+}
+
+section:nth-of-type(3) {
+   background: url('https://c1.staticflickr.com/3/2379/1612231178_b5a39bfea7_b.jpg') no-repeat 0 0 / cover;
+}
+
+div {
+   padding: 16px 32px;
+   background-color: rgba(255,255,255,0.8);
+   max-width: 50%;
+}
